@@ -17,7 +17,7 @@ The pendulum simulation can be restarted through File > Restart or (Cmd-R). This
 The program can be quit through File > Quit or (Cmd-Q).
 
 Building & Installing
-----------
+---------------------
 
 To install the application, simply decode the MacBinary file "pendulum.sit.bin", then unstuff the Stuffit Archive "pendulum.sit". The application along with the source files are included in this archive. Mini vMac is recommended to emulate this program on a modern computer (https://www.gryphel.com/c/minivmac/).
 

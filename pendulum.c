@@ -1,0 +1,1 @@
+#include "pendulum.h"#include <math.h>double pendulum_iter(struct pendulum_t *p) {	double dd_theta = -(p->mu * p->d_theta) - (p->gl * sin(p->theta));	p->d_theta += dd_theta * p->timestep;	p->theta += p->d_theta * p->timestep;	return p->theta;}

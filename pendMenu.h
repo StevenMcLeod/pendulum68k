@@ -1,0 +1,1 @@
+#ifndef PEND_MENU_H#define PEND_MENU_Hvoid MenuCreate(void);void MenuEvent(long menuItem);void MenuEditMode(Boolean active);#endif /* PEND_MENU_H */

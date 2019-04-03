@@ -1,0 +1,1 @@
+#ifndef PENDULUM_H#define PENDULUM_Hstruct pendulum_t {	double theta, d_theta;	double mu, gl, timestep;};double pendulum_iter(struct pendulum_t *p);#endif /* PENDULUM_H */

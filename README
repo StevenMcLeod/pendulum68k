@@ -1,0 +1,30 @@
+Pendulum68k
+-----------
+
+Note: Some files in this repository use Classic Mac OS line-endings ('\r').
+
+About
+-----
+
+This program is a pendulum simulator written for Classic Mac OS. It was inspired by this 3Blue1Brown video: (https://www.youtube.com/watch?v=p_di4Zn4wz4). It has been tested in System 4.2 / 6.0.8, but should work for any version of Classic Mac OS that can run 68k applications.
+
+
+Commands
+--------
+
+Simulation parameters can be changed through Edit > Preferences or (Cmd-,). From there, starting angle, angular velocity, pendulum resistance, pendulum length, and gravity can be changed. Values are input in floating-point format. To multiply the input value by pi, suffix the value with "pi".
+The pendulum simulation can be restarted through File > Restart or (Cmd-R). This is required to activate the changes made in preferences.
+The program can be quit through File > Quit or (Cmd-Q).
+
+Building & Installing
+----------
+
+To install the application, simply decode the MacBinary file "pendulum.sit.bin", then unstuff the Stuffit Archive "pendulum.sit". The application along with the source files are included in this archive. Mini vMac is recommended to emulate this program on a modern computer (https://www.gryphel.com/c/minivmac/).
+
+To build the application, compile the source files with any C compiler, and link with the ANSI C library. After an application is created, copy the necessary resource files from "pendulum.π.rsrc" with a program such as ResEdit. This resource file contains the dialogs used in the program as well as Finder settings. This program was compiled with ThinkC 5, and includes the project file "pendulum.π".
+
+Credits
+-------
+
+© 2019, Steven Mcleod. All rights reserved.
+https://github.com/StevenMcleod/pendulum68k

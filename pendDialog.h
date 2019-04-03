@@ -1,0 +1,1 @@
+#ifndef PEND_DIALOG_H#define PEND_DIALOG_Hstruct dialog_prefs_t {	double theta, d_theta, mu, len, grav;};void DialogAbout();void DialogPrefs(struct dialog_prefs_t *p);#endif /* PEND_DIALOG_H */
